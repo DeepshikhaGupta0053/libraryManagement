@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="css/bootstrap.min.css" rel="stylesheet">
+       <script src="script/jquery.min.js"></script>
+	   <script src="js/bootstrap.min.js"></script>
+	   <style>
+            div.gallery 
+			{
+                  margin: 5px;
+                  border: 1px solid black;
+                  float: left;
+                  width: 200px;
+                  height: 300px;
+            }
+            div.gallery:hover 
+			{
+                  border: 3px solid #777;
+            }
+            div.gallery img 
+			{
+                  width: 100%;
+                  height: 200px;
+            }
+            div.desc 
+			{
+                  padding: 15px;
+                  text-align: center;
+            }
+       </style>
+   </head>
+   <body>
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+
+    
+        
+
+
+
+  <div id="myCarousel" class="row carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        
+        <ul class="gallery">
+          <li class="col-sm-3">      
+            <div class="gallery">
+            <a target="_blank" href="f.jpg"><img src="f.jpg" alt="Fjords" width="200" height="200"></a>
+            
+       <div class="desc">Published By:<br>xyz<br>
+	   </div>
+       </div>
+       </div>
+          </li>
+    </ul>
+      </div><!-- /Slide2 --> 
+
+    </div><!-- /Wrapper for slides .carousel-inner -->
+
+
+
+    <!-- Control box -->
+    <div class="control-box">                            
+      <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+      <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+    </div><!-- /.control-box -->   
+
+
+
+  </div><!-- /#myCarousel -->
+
+
+</div><!-- /.col-sm-12 -->          
+</div><!-- /.row --> 
+</div><!-- /.container -->
+
+   </body></html>
